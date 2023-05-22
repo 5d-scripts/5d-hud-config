@@ -1,6 +1,7 @@
 _CONFIG = 
 {
     voicePlugin = "saltychat", -- saltychat, pma-voice
+    useStatus = true, -- Set to "false" if you do not use esx_status (hunger, thirst)
     hideStreetNames = true, -- Overlaps with the speedometer. HUD has its own street name display next to the minimap.
     hideVehicleNames = true, -- Overlaps with the speedometer.
     hideAmmouCount = true, -- Overlaps with the HUD.
@@ -19,7 +20,7 @@ _CONFIG =
         radio = 
         {
             on = "#00b1f7",
-            off = "##7a7a7d"
+            off = "#7a7a7d"
         },
         mic = 
         {
